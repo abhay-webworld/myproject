@@ -1,0 +1,279 @@
+/*
+===========================
+css reset
+===========================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+header{
+	background: #49a5bf;
+	width: 100%;
+	height: 150px;
+}
+
+.logo{
+	color: #afdae6;
+	font-size: 50px;
+	font-family: times new roman, serif, helvetica;
+	text-decoration: none;
+}
+header a:hover{
+	color: #395870;
+}
+.first-nav{
+	float: right;
+}
+
+.first-nav a{
+	border: 1px solid #395870;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 3px 12px 3px 12px;
+	text-decoration: none;
+	color: #afdae6;
+	font-family: times new roman, serif, helvetica;
+	font-size: 27px
+}
+.first-nav a:hover{
+	background: #93cede;
+	color: #395870;
+}
+
+/*
+===============================
+body
+===============================
+*/
+body{
+	background: #a3ccd6;
+}
+.image{
+	display: inline-block;
+}
+img{
+	width: 250px;
+	height: 350px;
+}
+
+.row{
+	float: right;
+}
+
+/*
+=================================
+sections
+=================================
+*/
+.about h1{
+	font-weight: bold;
+	font-size: 35px;
+	font-family: serif, helvetiva, arial;
+	margin-bottom: 10px;
+}
+.about p{
+	font-family: times new roman, arial, serif;
+	font-size: 20px;
+	margin-right: 230px;
+	margin-bottom: 15px; 
+}
+
+/*
+education
+*/
+.education h2{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: times new roman, helvetica, arial;
+	margin-bottom: 15px;
+}
+.education h3{
+	font-weight: 500;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.education p{
+	font-family: times new roman, arial, serif;
+	font-size: 20px;
+	margin-bottom: 15px; 
+}
+
+.degree h3,h4{
+	font-weight: bold;
+	font-family: times new roman, arial, serif;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.degree p{
+font-family: times new roman, arial, serif;
+	font-size: 20px;
+	margin-bottom: 15px; 
+}
+
+/*
+===================
+skills
+===================
+*/
+.skill{
+	margin-bottom: 15px;
+}
+.skill h3{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: times new roman, serif, arial;
+	margin-bottom: 15px;
+}
+.skill li{
+	list-style-type: square;
+	margin: 5px;
+	font-family: times new roman, arial, helvetica, sans-serif;
+	font-size: 20px;
+}
+
+/*
+===================
+certificate
+===================
+*/
+.certificate h3{
+font-size: 35px;
+	font-weight: bold;
+	font-family: times new roman, serif, arial;
+	margin-bottom: 15px;
+}
+.certificate li{
+	list-style-type: square;
+	margin: 5px;
+	font-family: times new roman, arial, helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+/*
+===========================
+footer
+===========================
+*/
+.last-nav{
+	margin-top: 15px;
+}
+.last-nav a{
+	font-size: 18px;
+	font-weight: 600;
+	font-family: times new roman, arial, helvetica,serif;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-decoration: none;
+	color: #207ce5;
+}
+.last-nav a:hover{
+	color: #395870;
+}
+
+
+/*
+===============================
+profile form
+===============================
+*/
+.row-1{
+	text-align: center;
+}
+
+.start h1{
+	font-size: 35px;
+	font-family: times new roman, arial, helvetica, serif;
+	margin-bottom: 10px;
+
+}
+.start p{
+	font-size: 20px;
+	font-family: times new roman, arial, helvetica, serif;
+    margin-bottom: 10px;
+}
+
+.labset{
+	width: 60%;
+	height: 650px;
+	border: 1px solid #395870;
+	border-radius: 8px;
+	margin-right: 100px;
+	margin-left: 200px;
+}
+
+.lab-1{
+	font-weight: bold;
+	font-size: 24px;
+}
+.lab-1 input{
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.lab-1 select{
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.submit{
+	padding: 10px 30px 10px 30px;
+	margin-top: 20px;
+}
+
+.labset label{
+	text-align: left;
+}
+
+.sec-nav{
+
+}
+.footer-2{
+	width: 100%;
+	height: 80px;
+	margin-top: 20px;
+	border: 1px solid #395870;
+	background: linear-gradient(#75bdd1,#93cede)
+}
+.sec-nav{
+	float: right;
+	margin-top: 8px;
+}
+.sec-nav a{
+	font-size: 20px;
+	font-family: times new roman, arial, helvetica, serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #627d4d;
+}
+.sec-nav a:hover{
+	color: #afdae6;
+}
