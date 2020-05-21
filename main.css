@@ -260,7 +260,7 @@ profile form
 	height: 80px;
 	margin-top: 20px;
 	border: 1px solid #395870;
-	background: linear-gradient(#75bdd1,#93cede)
+	background: linear-gradient(#22c1c3,#fdbb2d)
 }
 .sec-nav{
 	float: right;
@@ -276,4 +276,93 @@ profile form
 }
 .sec-nav a:hover{
 	color: #afdae6;
+}
+
+/*button
+*/
+
+.sub{
+	border: 1px solid #395870;
+	border-radius: 7px;
+	background: linear-gradient(#22c1c3,#2dfd8e);
+	text-align: center;
+	margin-top:37px;
+}
+
+/*
+============================
+contact
+============================
+*/
+.linked-in{
+	margin-left: 100px;
+	margin-top: 25px;
+	
+}
+.linked-in h3{
+	font-weight: bold;
+	font-family: arial, serif, helvetica;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.linked-in h4{
+	font-size:17px;
+}
+.linked-in a{
+	text-decoration:none;
+	color: #395870;
+	font-size: 16px;
+}
+.linked-in img{
+	width: 200px;
+	height: 200px;
+}
+.git{
+	margin-left: 100px;
+	margin-top: 25px;
+}
+.git h3{
+	font-weight: bold;
+	font-family: arial, serif, helvetica;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.git a{
+	text-decoration:none;
+	color: #395870;
+	font-size: 16px;
+}
+.git img{
+	width: 200px;
+	height: 200px;
+}
+.git h4{
+	font-size:17px;
+}
+.main{
+	display:inline-block;
+}
+
+section h4:hover{
+	color: #fdbb2d;
+}
+
+/* ==================================================  */
+
+.address{
+	float: right;
+	margin-top:200px;
+	margin-right: 300px;
+}
+.address h2{
+	font-weight:bold;
+	font-family:times new roman, arial, serif, helvetica;
+	font-size: 35px;
+	color: #395870;
+	margin-bottom: 20px;
+}
+.address p{
+	font-size: 17px;
+	font-family: times new roman, arial, serif, helvetica;
+	
 }
